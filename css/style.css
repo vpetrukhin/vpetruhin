@@ -93,6 +93,14 @@ body {
   margin: auto;
   margin-bottom: 105px;
 }
+.hero__menu {
+  
+}
+
+.hero__link {
+  color: #fff;
+  margin-right: 20px;
+}
 .hero__header {
   display: flex;
   justify-content: space-between;
@@ -101,6 +109,9 @@ body {
 }
 .social-links a {
   padding-left: 20px;
+}
+.social-link:not(:last-child) {
+  margin-right: 10px;
 }
 .container-down {
   max-width: 936px;
