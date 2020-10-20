@@ -141,14 +141,15 @@ body {
   color: #2e2e30;
 }
 .hero-avatar {
-  background-image: url("../img/FullSizeRender\ \(1\)_photo-resizer.ru.jpg");
+  background-image: url("../img/ava.png");
+  background-position: -10px 0;
   width: 430px;
   height: 430px;
   border-radius: 50%;
   border: 13px solid #fff;
 }
 /* features */
-.features {
+/* .features {
   background-color: #000;
 }
 .features__container {
@@ -159,11 +160,13 @@ body {
   display: inline-block;
   margin: 64px 0 84px 0;
 }
+*/
 .title {
   font-weight: bold;
   font-size: 36px;
   line-height: 42px;
 }
+/*
 .features__container-item {
   max-width: 100%;
   display: flex;
@@ -190,7 +193,7 @@ body {
   font-size: 16px;
   line-height: 28px;
   max-width: 287px;
-}
+} */
 /* contacts */
 .contacts {
   background-color: #20202d;
