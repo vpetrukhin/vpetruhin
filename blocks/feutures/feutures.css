@@ -1,0 +1,30 @@
+.feutures {}
+
+.feutures__title {
+  margin: 64px 0 84px;
+}
+
+
+.feutures__feuture-blocks {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 1fr)
+}
+
+.feutures__feuture-block {}
+
+.feuture-block__image {}
+
+.feuture-block__text {}
+
+.feuture-block__title {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 1.17;
+}
+
+.feuture-block__paragraph {
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.75;
+}
