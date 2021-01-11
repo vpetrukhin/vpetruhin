@@ -1,0 +1,9 @@
+.hero__avatar {
+  width: 389px;
+  height: 389px;
+  border-radius: 50%;
+  border: 11px solid #FFFFFF;
+  overflow: hidden;
+  background-image: url(../../../img/ava.png);
+  background-position: center 17px;
+}
