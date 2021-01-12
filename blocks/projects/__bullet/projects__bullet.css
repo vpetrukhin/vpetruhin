@@ -1,0 +1,8 @@
+.projects__bullet {
+  display: block;
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
+  border-radius: 50%;
+  border: 2px solid #FFBB01;
+}

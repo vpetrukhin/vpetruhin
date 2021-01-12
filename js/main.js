@@ -1,8 +1,9 @@
-var mySwiper = new Swiper(".swiper-container", {
+let mySwiper = new Swiper(".swiper-container", {
   pagination: {
-    el: ".projects-pagination",
-    bulletClass: "projects-bulllet",
-    bulletActiveClass: "projects-bulllet-active",
+    el: ".projects__pagination",
+    type: 'bullets',
+    bulletClass: "projects__bullet",
+    bulletActiveClass: "projects__bullet-active",
     clickable: "false",
   },
 });

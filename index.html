@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Портфолио</title>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
   <link rel="stylesheet" href="./pages/index.css">
 </head>
 <body class="page">
@@ -94,14 +96,50 @@
 
     <section class="projects">
       <h2 class="projects__title section-title">Последние проекты</h2>
-      <div class="projects__slider">
-        <img src="./img/project-img.png" alt="Проект" class="slider__image">
-        <div class="slider__text">
-          <h3 class="slider__title">Сайт строительной фирмы “Велстрой”</h3>
-          <p class="slider__about">
-          Мне понравилось работать с Артемом, потому что он все время был на связи и предлагал свои решения, когда мы заходили в тупик с дизайном. Мне нужны были закрывающие документы для бухгалтерии, и Артем — тот редкий фрилансер, у которого с документами все в порядке.
-          </p>
+      <!-- Slider main container -->
+      <div class="swiper-container">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide projects__slider">
+            <img src="./img/project-img.png" alt="Проект" class="slider__image">
+            <div class="slider__text">
+              <h3 class="slider__title">Сайт строительной фирмы “Велстрой”</h3>
+              <p class="slider__about">
+                Мне понравилось работать с Артемом, потому что он все время был на связи и предлагал свои решения, когда мы заходили
+                в тупик с дизайном. Мне нужны были закрывающие документы для бухгалтерии, и Артем — тот редкий фрилансер, у которого
+                с документами все в порядке.
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide projects__slider">
+            <img src="./img/project-img.png" alt="Проект" class="slider__image">
+            <div class="slider__text">
+              <h3 class="slider__title">Сайт строительной фирмы “Велстрой”</h3>
+              <p class="slider__about">
+                Мне понравилось работать с Артемом, потому что он все время был на связи и предлагал свои решения, когда мы
+                заходили
+                в тупик с дизайном. Мне нужны были закрывающие документы для бухгалтерии, и Артем — тот редкий фрилансер, у
+                которого
+                с документами все в порядке.
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide projects__slider">
+            <img src="./img/project-img.png" alt="Проект" class="slider__image">
+            <div class="slider__text">
+              <h3 class="slider__title">Сайт строительной фирмы “Велстрой”</h3>
+              <p class="slider__about">
+                Мне понравилось работать с Артемом, потому что он все время был на связи и предлагал свои решения, когда мы
+                заходили
+                в тупик с дизайном. Мне нужны были закрывающие документы для бухгалтерии, и Артем — тот редкий фрилансер, у
+                которого
+                с документами все в порядке.
+              </p>
+            </div>
+          </div>
         </div>
+        <div class="projects__pagination"></div>
       </div>
     </section>
 
@@ -109,5 +147,8 @@
 
   <footer class="footer"></footer>
 
+  <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="./js/main.js"></script>
 </body>
 </html>
