@@ -1,0 +1,5 @@
+.feutures__feuture-blocks {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(238px, 1fr));
+  gap: 32px;
+}

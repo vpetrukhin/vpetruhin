@@ -22,3 +22,10 @@
 @import url(../blocks/hero/__avatar/hero__avatar.css);
 
 @import url(../blocks/feutures/feutures.css);
+@import url(../blocks/feutures/__title/feutures__title.css);
+@import url(../blocks/feutures/__feuture-blocks/feutures__feuture-blocks.css);
+@import url(../blocks/feutures__feuture-block/feutures__feuture-block.css);
+@import url(../blocks/feutures__feuture-block/__image/feuture-block__image.css);
+@import url(../blocks/feutures__feuture-block/__text/feuture-block__text.css);
+@import url(../blocks/feutures__feuture-block/__title/feuture-block__title.css);
+@import url(../blocks/feutures__feuture-block/__paragraph/feuture-block__paragraph.css);
