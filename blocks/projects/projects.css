@@ -1,0 +1,12 @@
+.projects {
+
+}
+.projects__title {
+  margin: 135px 0 84px;
+}
+
+.projects__slider {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
