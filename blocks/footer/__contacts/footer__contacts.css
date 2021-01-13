@@ -2,6 +2,15 @@
   max-width: 80%;
   margin: 0 auto 11px;
   display: flex;
+  flex-wrap: wrap;
   align-items: flex-start;
   justify-content: space-between;
+}
+
+@media (max-width:555px) {
+  .footer__contacts {
+    max-width: 100%;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
 }

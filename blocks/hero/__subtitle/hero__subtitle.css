@@ -3,3 +3,9 @@
   font-size: 16px;
   line-height: 1.75;
 }
+
+@media (max-width:535px) {
+  .hero__subtitle {
+    text-align: center;
+  }
+}

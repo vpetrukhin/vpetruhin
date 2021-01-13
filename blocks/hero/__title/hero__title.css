@@ -5,3 +5,10 @@
   font-size: 45px;
   line-height: 1.18;
 }
+
+@media (max-width:535px) {
+  .hero__title {
+    font-size: 30px;
+    text-align: center;
+  }
+}

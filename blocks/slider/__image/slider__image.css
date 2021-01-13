@@ -2,3 +2,22 @@
   max-width: 338px;
   margin-right: 7.5%;
 }
+
+@media (max-width:768px) {
+  .slider__image {
+    margin-right: 0;
+    margin-bottom: 10%;
+  }
+}
+
+@media (max-width:431px) {
+  .slider__image {
+    width: 340px;
+  }
+}
+
+@media (max-width:320px) {
+  .slider__image {
+    width: 250px;
+  }
+}

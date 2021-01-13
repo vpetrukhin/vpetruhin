@@ -5,3 +5,10 @@
   font-size: 24px;
   line-height: 1.17;
 }
+
+@media (max-width:555px) {
+  .feuture-block__title {
+    font-size: 18px;
+    line-height: 1.56;
+  }
+}

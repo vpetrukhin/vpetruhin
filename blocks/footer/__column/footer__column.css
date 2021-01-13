@@ -1,1 +1,5 @@
-/* .footer__column {} */
+@media (max-width:555px) {
+  .footer__column:not(:last-of-type) {
+    margin-bottom: 24px;
+  }
+}

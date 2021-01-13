@@ -1,3 +1,9 @@
 .feutures__title {
   margin: 64px 0 84px;
 }
+
+@media (max-width:555px) {
+  .feutures__title {
+    margin: 60px 0 40px;
+  }
+}

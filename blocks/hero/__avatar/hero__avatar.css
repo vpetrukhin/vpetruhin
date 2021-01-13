@@ -1,9 +1,33 @@
 .hero__avatar {
-  width: 389px;
+  width: 41.5%;
   height: 389px;
   border-radius: 50%;
   border: 11px solid #FFFFFF;
   overflow: hidden;
   background-image: url(../../../img/ava.png);
   background-position: center 17px;
+  background-size: cover;
+}
+
+@media (max-width:768px) {
+  .hero__avatar {
+    height: 300px;
+  }
+}
+
+@media (max-width:535px) {
+  .hero__avatar {
+    width: 338px;
+    height: 338px;
+    margin-bottom: 20px;
+    order: 1;
+  }
+}
+
+@media (max-width:320px) {
+  .hero__avatar {
+    width: 113px;
+    height: 111px;
+    border: 3px solid #FFFFFF;
+  }
 }

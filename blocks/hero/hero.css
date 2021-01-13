@@ -4,3 +4,11 @@
   align-items: flex-start;
   justify-content: space-between;
 }
+
+@media (max-width:535px) {
+  .hero {
+    margin-bottom: 80px;
+    flex-direction: column;
+    align-items: center;
+  }
+}

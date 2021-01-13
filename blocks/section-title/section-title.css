@@ -4,3 +4,10 @@
   font-size: 36px;
   line-height: 1.16;
 }
+
+@media (max-width:555px) {
+  .section-title {
+    font-size: 19px;
+    text-align: center;
+  }
+}
