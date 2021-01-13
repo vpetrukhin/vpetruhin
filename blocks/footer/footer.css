@@ -1,0 +1,59 @@
+.footer {
+  max-width: 80%;
+  margin: 0 auto;
+  padding-bottom: 48px;
+}
+
+.footer__contacts {
+  max-width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.footer__column {}
+
+.footer__column-title {
+  margin-bottom: 22px;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 1.17;
+}
+
+.footer__phone {
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.2;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer__links {}
+
+.footer__link {
+  height: 20px;
+  display: block;
+  margin-bottom: 18px;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1px;
+  color: #fff;
+}
+
+
+.footer__email {
+  
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.footer__politics {
+  font-family: Roboto;
+  font-size: 15px;
+  line-height: 1.2;
+  text-decoration-line: underline;
+  color: #A5A5A5;
+}
