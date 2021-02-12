@@ -1,3 +1,5 @@
 .feuture-block__image {
+  width: 70px;
+  min-height: 50px;
   margin-bottom: 22px;
 }
